@@ -2535,82 +2535,82 @@ samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt:
 break
 case 'elpepe':
 addFilter(from)
-aud = fs.readFileSync('./audio/elpepe.mpeg')	
+aud = fs.readFileSync('./media/elpepe.mpeg')	
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true})
 break
 case 'risa':
 addFilter(from)
-aud = fs.readFileSync('./audio/risa.mp4')	
+aud = fs.readFileSync('./media/risa.mp4')	
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true})
 break
 case 'bruh':
 addFilter(from)
-aud = fs.readFileSync('./audio/bruh.mp3')	
+aud = fs.readFileSync('./media/bruh.mp3')	
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true})
 break	
 case 'chinga':
 addFilter(from)
-aud = fs.readFileSync('./audio/chinga.mpeg')	
+aud = fs.readFileSync('./media/chinga.mpeg')	
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true})
 break	
 case 'respeto':
 addFilter(from)
-aud = fs.readFileSync('./audio/respeto.mp3')	
+aud = fs.readFileSync('./media/respeto.mp3')	
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true})
 break
 case 'mencho':
 addFilter(from)
-aud = fs.readFileSync('./audio/mencho.mp3')	
+aud = fs.readFileSync('./media/mencho.mp3')	
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true})
 break	
 case 'negros':
 addFilter(from)
-aud = fs.readFileSync('./audio/negros.mp3')	
+aud = fs.readFileSync('./media/negros.mp3')	
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true})
 break	
 case 'sucy':
 addFilter(from)
-aud = fs.readFileSync('./audio/sucy.mp3')	
+aud = fs.readFileSync('./media/sucy.mp3')	
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true})
 break
 case 'acerrin':
 addFilter(from)
-aud = fs.readFileSync('./audio/acerrin.mp3')	
+aud = fs.readFileSync('./media/acerrin.mp3')	
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true})
 break
 case 'ricorico':
 addFilter(from)
-aud = fs.readFileSync('./audio/ricorico.mp3')	
+aud = fs.readFileSync('./media/ricorico.mp3')	
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true})
 break
 case 'omaygat':
 addFilter(from)
-aud = fs.readFileSync('./audio/omaygat.mp3')	
+aud = fs.readFileSync('./media/omaygat.mp3')	
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true})
 break
 case 'sasageyo':
 addFilter(from)
-aud = fs.readFileSync('./audio/sasageyo.mp3')	
+aud = fs.readFileSync('./media/sasageyo.mp3')	
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true})
 break	
 case 'relax':
 addFilter(from)
-aud = fs.readFileSync('./audio/relax.mp3')	
+aud = fs.readFileSync('./media/relax.mp3')	
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true})
 break	
 case 'floyd':
 addFilter(from)
-aud = fs.readFileSync('./audio/floyd.mp3')	
+aud = fs.readFileSync('./media/floyd.mp3')	
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true})
 break	
 case 'lele':
 addFilter(from)
-aud = fs.readFileSync('./audio/lele.mp3')	
+aud = fs.readFileSync('./media/lele.mp3')	
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true})
 break	
 case 'nippon':
 addFilter(from)
-aud = fs.readFileSync('./audio/nippon.mp3')	
+aud = fs.readFileSync('./media/nippon.mp3')	
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true})
 break		
 case 'audios':
