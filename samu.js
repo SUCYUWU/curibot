@@ -2480,7 +2480,7 @@ samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt:
 break
 case 'potatsio':
 addFilter(from)
-aud = fs.readFileSync('./audio/potatsio.mpeg') 
+aud = fs.readFileSync('./media/potatsio.mp4') 
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
 break
 case 'sempai':
