@@ -2622,10 +2622,15 @@ case 'nopor':
 addFilter(from)
 aud = fs.readFileSync('./media/nopor.mp4')	
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true})
-break	
+break
+case 'ichini':
+addFilter(from)
+aud = fs.readFileSync('./media/ichini.mp3')	
+samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true})
+break
 case 'audios':
 addFilter(from)
-reply(`*Estos audios son originales, provenientes de la app:*\nhttps://play.google.com/store/apps/details?id=com.aromaticnectarineapps.anime\n\n- anana\n- asen\n- flash\n- hentai\n- jai\n- jashire\n- kareta\n- kataka\n- kobarashi\n- potatsio2\n- nani\n- niconico\n- nya\n- omaiga\n- omaiwa\n- omg\n- onichan\n- potatsio\n- sempai\n- sss\n- talcho\n- tobec\n- tuturu\n- tututu\n- uma\n- umai\n- unga\n- woau\n- ñañañi\n- elpepe\n- risa\n- bruh\n- chinga\n- respeto\n- mencho\n- negros\n- sucy\n- acerrin\n- ricorico\n- omaygat\n- sasageyo\n- relax\n- floyd\n- lele\n- nippon\n- waffle\n- nopor\n\🍒 *By Sucy la curi^^* 💠`)
+reply(`*Estos audios son originales, provenientes de la app:*\nhttps://play.google.com/store/apps/details?id=com.aromaticnectarineapps.anime\n\n- anana\n- asen\n- flash\n- hentai\n- jai\n- jashire\n- kareta\n- kataka\n- kobarashi\n- potatsio2\n- nani\n- niconico\n- nya\n- omaiga\n- omaiwa\n- omg\n- onichan\n- potatsio\n- sempai\n- sss\n- talcho\n- tobec\n- tuturu\n- tututu\n- uma\n- umai\n- unga\n- woau\n- ñañañi\n- elpepe\n- risa\n- bruh\n- chinga\n- respeto\n- mencho\n- negros\n- sucy\n- acerrin\n- ricorico\n- omaygat\n- sasageyo\n- relax\n- floyd\n- lele\n- nippon\n- waffle\n- ichini\n- nopor\n\🍒 *By Sucy la curi^^* 💠`)
 break
 case 'top5':
 addFilter(from)
