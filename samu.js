@@ -2403,11 +2403,6 @@ addFilter(from)
 aud = fs.readFileSync('./audio/flash.ogg') 
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
 break
-case 'asen':
-addFilter(from)
-aud = fs.readFileSync('./audio/asen.ogg') 
-samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
-break
 case 'hentai':
 addFilter(from)
 aud = fs.readFileSync('./audio/hentai.ogg') 
@@ -2643,9 +2638,99 @@ addFilter(from)
 aud = fs.readFileSync('./media/risa2.mp4')	
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true})
 break
+case 'ñaña':
+addFilter(from)
+aud = fs.readFileSync('./audio/ñaña.ogg') 
+samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
+break	
+case 'yutki':
+addFilter(from)
+aud = fs.readFileSync('./audio/yutki.ogg') 
+samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
+break	
+case 'yokese':
+addFilter(from)
+aud = fs.readFileSync('./audio/yokese.ogg') 
+samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
+break
+case 'yamete':
+addFilter(from)
+aud = fs.readFileSync('./audio/yamete.ogg') 
+samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
+break	
+case 'yame':
+addFilter(from)
+aud = fs.readFileSync('./audio/yame.ogg') 
+samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
+break
+case 'yajaro':
+addFilter(from)
+aud = fs.readFileSync('./audio/yajaro.ogg') 
+samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
+break	
+case 'uff':
+addFilter(from)
+aud = fs.readFileSync('./audio/uff.ogg') 
+samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
+break	
+case 'uchinchi':
+addFilter(from)
+aud = fs.readFileSync('./audio/uchinchi.ogg') 
+samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
+break	
+case 'suspenso':
+addFilter(from)
+aud = fs.readFileSync('./audio/suspenso.ogg') 
+samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
+break	
+case 'pupu':
+addFilter(from)
+aud = fs.readFileSync('./audio/pupu.ogg') 
+samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
+break
+case 'piano':
+addFilter(from)
+aud = fs.readFileSync('./audio/piano.ogg') 
+samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
+break
+case 'ooaa':
+addFilter(from)
+aud = fs.readFileSync('./audio/ooaa.ogg') 
+samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
+break	
+case 'nyan':
+addFilter(from)
+aud = fs.readFileSync('./audio/nyan.ogg') 
+samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
+break	
+case 'motomoto':
+addFilter(from)
+aud = fs.readFileSync('./audio/motomoto.ogg') 
+samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
+break
+case 'mma':
+addFilter(from)
+aud = fs.readFileSync('./audio/mma.ogg') 
+samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
+break
+case 'kicks':
+addFilter(from)
+aud = fs.readFileSync('./audio/kicks.ogg') 
+samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
+break
+case 'mitamita':
+addFilter(from)
+aud = fs.readFileSync('./audio/mitamita.ogg') 
+samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
+break	
+case 'namnam':
+addFilter(from)
+aud = fs.readFileSync('./audio/namnam.mp4') 
+samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
+break		
 case 'audios':
 addFilter(from)
-reply(`*Estos audios son originales, provenientes de la app:*\nhttps://play.google.com/store/apps/details?id=com.aromaticnectarineapps.anime\n\n- anana\n- asen\n- flash\n- hentai\n- jai\n- jashire\n- kareta\n- kataka\n- kobarashi\n- potatsio2\n- nani\n- niconico\n- nya\n- omaiga\n- omaiwa\n- omg\n- onichan\n- potatsio\n- sempai\n- sss\n- talcho\n- tobec\n- tuturu\n- tututu\n- uma\n- umai\n- unga\n- woau\n- ñañañi\n- elpepe\n- risa\n- risa2\n- bruh\n- chinga\n- respeto\n- mencho\n- negros\n- sucy\n- acerrin\n- ricorico\n- omaygat\n- sasageyo\n- relax\n- floyd\n- lele\n- nippon\n- waffle\n- ichini\n- nopor\n- dura\n- mundocurigraso\n\🍒 *By Sucy la curi^^* 💠`)
+reply(`*Estos audios son originales, provenientes de la app:*\nhttps://play.google.com/store/apps/details?id=com.aromaticnectarineapps.anime\n\n- anana\n- asen\n- flash\n- hentai\n- jai\n- jashire\n- kareta\n- kataka\n- kobarashi\n- potatsio2\n- nani\n- niconico\n- nya\n- omaiga\n- omaiwa\n- omg\n- onichan\n- potatsio\n- sempai\n- sss\n- talcho\n- tobec\n- tuturu\n- tututu\n- uma\n- umai\n- unga\n- woau\n- ñañañi\n- ñaña\n- yutki\n- yokese\n- yamete\n- yame\n- yajaro\n- uff\n- uchinchi\n-suspenso\n- mitamita\n- pupu\n- piano\n- ooaa\n- nyan\n- motomoto\n-mma\n- kikcs\n- elpepe\n- risa\n- risa2\n- bruh\n- chinga\n- respeto\n- mencho\n- negros\n- sucy\n- acerrin\n- ricorico\n- omaygat\n- sasageyo\n- relax\n- floyd\n- lele\n- nippon\n- waffle\n- ichini\n- nopor\n- dura\n- mundocurigraso\n- namnam\n\🍒 *By Sucy la curi^^* 💠`)
 break
 case 'top5':
 addFilter(from)
