@@ -2730,7 +2730,7 @@ samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt:
 break
 case 'chinchen':
 addFilter(from)
-aud = fs.readFileSync('./media/chinchen.mp4') 
+aud = fs.readFileSync('./media/chinchen.mp3') 
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
 break		
 case 'audios':
