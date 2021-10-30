@@ -2747,10 +2747,20 @@ case 'jijijija':
 addFilter(from)
 aud = fs.readFileSync('./media/jijijija.mp3') 
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
+break
+case 'cmamut':
+addFilter(from)
+aud = fs.readFileSync('./media/cmamut.mp3') 
+samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
+break	
+case 'cmamutmiku':
+addFilter(from)
+aud = fs.readFileSync('./media/cmamutmiku.mp4') 
+samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
 break		
 case 'audios':
 addFilter(from)
-reply(`*Estos audios son originales, provenientes de la app:*\nhttps://play.google.com/store/apps/details?id=com.aromaticnectarineapps.anime\n\n- anana\n- asen\n- flash\n- hentai\n- jai\n- jashire\n- kareta\n- kataka\n- kobarashi\n- potatsio2\n- nani\n- niconico\n- nya\n- omaiga\n- omaiwa\n- omg\n- onichan\n- potatsio\n- sempai\n- sss\n- talcho\n- tobec\n- tuturu\n- tututu\n- uma\n- umai\n- unga\n- woau\n- ñañañi\n- ñaña\n- yutki\n- yokese\n- yamete\n- yame\n- yajaro\n- uff\n- uchinchi\n-suspenso\n- mitamita\n- pupu\n- piano\n- ooaa\n- nyan\n- motomoto\n-mma\n- kikcs\n- elpepe\n- risa\n- risa2\n- bruh\n- chinga\n- respeto\n- mencho\n- negros\n- sucy\n- acerrin\n- ricorico\n- omaygat\n- sasageyo\n- relax\n- floyd\n- lele\n- nippon\n- waffle\n- ichini\n- nopor\n- dura\n- mundocurigraso\n- namnam\n- chinchen\n- tilin\n- poipoi\n- jijijija\n\🍒 *By Sucy la curi^^* 💠`)
+reply(`*Estos audios son originales, provenientes de la app:*\nhttps://play.google.com/store/apps/details?id=com.aromaticnectarineapps.anime\n\n- anana\n- asen\n- flash\n- hentai\n- jai\n- jashire\n- kareta\n- kataka\n- kobarashi\n- potatsio2\n- nani\n- niconico\n- nya\n- omaiga\n- omaiwa\n- omg\n- onichan\n- potatsio\n- sempai\n- sss\n- talcho\n- tobec\n- tuturu\n- tututu\n- uma\n- umai\n- unga\n- woau\n- ñañañi\n- ñaña\n- yutki\n- yokese\n- yamete\n- yame\n- yajaro\n- uff\n- uchinchi\n-suspenso\n- mitamita\n- pupu\n- piano\n- ooaa\n- nyan\n- motomoto\n-mma\n- kikcs\n- elpepe\n- risa\n- risa2\n- bruh\n- chinga\n- respeto\n- mencho\n- negros\n- sucy\n- acerrin\n- ricorico\n- omaygat\n- sasageyo\n- relax\n- floyd\n- lele\n- nippon\n- waffle\n- ichini\n- nopor\n- dura\n- mundocurigraso\n- namnam\n- chinchen\n- tilin\n- poipoi\n- jijijija\n- cmamut\n- cmamutmiku\n\🍒 *By Sucy la curi^^* 💠`)
 break
 case 'top5':
 addFilter(from)
